@@ -1,0 +1,68 @@
+
+.container {
+  padding:5px 30px 30px 30px;
+  margin:30px;
+  border:solid white 5px;
+  border-radius:5px;
+  background-color:#09d8be;
+  text-align:center;
+}
+.htp {
+  position:absolute;
+  top:0;
+  right:0;
+  cursor: help;
+}
+.love {
+  position:absolute;
+  bottom:0;
+  left:0;
+  overflow: hidden;
+  background-color:#09d8be;
+}
+.love a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.love a:hover {
+  background-color: #FFC0CB;
+  color: white;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: #00008b;
+  color: white;
+}
+.btn-success, .btn-danger {
+  width:200px;
+}
+body {
+  background-color: powderblue;
+  }
+
+  h1 {
+    font-family: Comic Sans MS;
+    border: 5px solid yellow;
+  }
+
+  p {
+    font-family: Comic Sans MS;
+  }
+  h3 {
+    font-family: Comic Sans MS;
+  }

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+<title>Winner's Page</title>
+<link rel="icon" href="Images/crown.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+   box-sizing: border-box;
+}
+body {
+   font-family: 'Brush Script MT', monospace;
+   margin: 0;
+    text-align:center;
+}
+.header {
+   padding: 80px;
+   text-align: center;
+   background: rgba(64, 195, 255, 0.445);
+   color: rgba(0, 17, 255, 0.445);
+}
+.header h1 {
+   font-size: 70px;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size:50px;
+}
+p{
+    font-size: 40px
+}
+.footer {
+   padding: 20px;
+   text-align: center;
+   background: rgba(4, 255, 4, 0.973);
+   color: rgb(20, 139, 4);
+}
+</style>
+
+</head>
+<body>
+
+<div class="header">
+ <h1><img src="Images/crown.png" alt="Cursor" width="30" height="30">WINNER'S PAGE<img src="Images/crown.png" alt="Cursor" width="30" height="30"></h1>
+ <div>
+ <p>Hey you won the Clicker Game.</p>
+
+</div>
+
+<img src="Images/job.jpg" width="350" height="125">
+<p><img src="Images/prism.png" alt="Cursor" width="400" height="400"><img src="favicon.gif" alt="Cursor" width="300" height="300"><img src="Images/prism.png" alt="Cursor" width="400" height="400"></p>
+<form action="index.html">
+<button type="submit" class="btn btn-success" style="border: 2px solid tomato;border-radius:10px;">Press this to play again</button></form>
+<div class="footer">
+ <h2>Have a great day</h2>
+  <form action="https://repl.it">
+  <button type="submit" class="btn btn-success" style="border: 2px solid tomato;border-radius:10px;">Press this to go to repl.it (Home Page)</button></form>
+</div>
+
+</body>
+</html>
+<script>
+
+function sound(src) {
+  this.sound = document.createElement("audio");
+  this.sound.src = src;
+  this.sound.setAttribute("preload", "auto");
+  this.sound.setAttribute("controls", "none");
+  this.sound.style.display = "none";
+  document.body.appendChild(this.sound);
+  this.play = function(){
+    this.sound.play();
+  }
+  this.stop = function(){
+    this.sound.pause();
+  }
+}
+
+winn = new sound("zwinner.mp3")
+
+function win() {
+  winn.play()
+}
+
+setInterval(win(),5000)
+</script>

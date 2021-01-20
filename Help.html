@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Cookie Clicker (How to Play)</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="Images/logo.png">
+</head>
+<head>
+  <link rel="stylesheet" href="Helpstyle.css">
+</head>
+<body>
+<!-- I placed the style separate as it was long -->
+<div class="header">
+  <h1>How to Play Cookie Clicker?</h1>
+  <p>A game for when you're bored</p>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Cookie Clicker</a>
+  <a href="https://repl.it/@YeeTEDWIN/The-Real-Uno-4-players-max#main.py">UNO!</a>
+  <a href="https://repl.it/~" class="right">Repl.it</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>What's the main goal in Cookie Clicker</h2>
+    <h5>The only thing to do in this game is CLICK CLICK CLICK!!</h5>
+    <img src="Images/cook.png" alt="Cursor" width="40" height="40"><img src="Images/cook.png" alt="Cursor" width="50" height="50"><img src="Images/cook.png" alt="Cursor" width="50" height="50"><img src="Images/cook.png" alt="Cursor" width="50" height="50"><img src="Images/cook.png" alt="Cursor" width="50" height="50"><img src="Images/cook.png" alt="Cursor" width="50" height="50"><img src="Images/cook.png" alt="Cursor" width="50" height="50"><img src="Images/cook.png" alt="Cursor" width="40" height="40">
+    <hr>
+    <p>The main goal in the game is to finish the game or rather go to the Winner's page. How to do so? Well, the last button or the "finish game button" is the goal to reach</p>
+    <h3>How to reach the goal?</h3>
+    <p>Get 20000 clicks in game. Sounds pretty hard right?Well on the right are some tips and tricks to get faster to 20000 clicks.</p>
+    <img class="center" src="HowToPlay/image1.png">
+      <h2>I got 20000 clicks!!</h2>
+    <img class="center" src="HowToPlay/image2.png">
+      <h2>All the buttons</h2>
+    <img class="center" src="HowToPlay/image3.png">
+      <h2>MORE UPDATES COMING SOON!!</h2>
+    <img class="center" src="HowToPlay/image5.png">
+      <h2>All the code to create this game...</h2>
+  </div>
+  <div class="main">
+    <h2>What does each button do?</h2>
+    <h5>Explains what each button does</h5>
+    <img class="center" src="HowToPlay/image2.png">
+    <p>Buttons cost clicks to upgrade which you can earn by click the cookie!</p>
+    <img src="Images/bow.png" alt="Cursor" width="20" height="20"> + 1 Auto-Clicker <img src="Images/cursor.png" alt="Cursor" width="16" height="23">
+    <p>The top button or +1 Auto-Clicker allows each second to get a automatic click. The higher the level the more clicks you get automatically each second</p>
+    😎 Auto-Clicker Speed 😎 (⚡+10% speed⚡)
+    <p>Using the second button you can speed up the time in which you get autoclicks by 10%</p>
+    <img src="Images/spin.gif" alt="Cursor" width="20" height="20"> +1 Click per Click <img src="Images/click.gif" alt="Cursor" width="20" height="30">
+    <p>The third button makes it so that you can increase the amount of clicks you earn each time you click the cookie</p>
+    <img src="Images/cokie.gif" alt="Cursor" width="20" height="20"> Cookie Lottery <img src="Images/coin.ico" alt="Cursor" width="20" height="20">
+    <p>The fourth button is a cookie lottery which gives you a chance to get from 0 to 3000 clicks. It can also give a negative amount of -3500</p>
+    <img src="Images/cook.png" alt="Cursor" width="20" height="20"> Cookie Packet Search <img src="Images/stack.ico" alt="Cursor" width="20" height="20">
+    <p>The fifth button is a cookie packet search where you look inside a cookie packet and have a chance to get a 500 clicks cheque. The biggest prize is a COOKIE which gives you 5000 clicks. You can also get infected COOKIE which makes you lose 3500. There is also Death which makes you lose 5000 clicks</p>
+    <p>
+    Items that you can find (the brackets indicate the amount of clicks):
+    <ol>
+    <li> Death (-5000)</li>
+    <li> Infected Cookie (-3500)</li>
+    <li> 500 Clicks Cheque (500)</li>
+    <li> 1000 Clicks Cheque (100)</li>
+    <li> Golden Ticket (2500)</li>
+    <li> Cookie (5000)</li>
+    </ol>
+    </p><p>If a button has lvl G instead of lvl 0 that means its a gambling button which means you can either lose money or win money.</p>
+    <br>
+    <h2>Tips and Tricks</h2>
+    <h5>How to win Cookie Clicker quickly!</h5>
+    <img class="center" src="HowToPlay/image4.png">
+    <p>Tips for Cookie Clicker:
+    <ol>
+    <li> Start with getting your Auto-Clicker level to atleast 6-7</li>
+    <li> Then you try geting your Click per Click to lvl 3</li>
+    <li> Then get you Auto-Clicker Speed to atleast 0.66</li>
+    <li> Then start farming and grinding till 1500-2000</li>
+    <li> Then try gambling a Cookie Packet Search (easy to get money) and 2 times a Cookie Lottery</li>
+    <li> Finally Start grinding to 20000 and then WIN</li>
+    </ol>
+    </p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>HAVE FUN PLAYING!</h2>
+</div>
+
+</body>
+</html>
+
+
+<script>
+
+function sound(src) {
+  this.sound = document.createElement("audio");
+  this.sound.src = src;
+  this.sound.setAttribute("preload", "auto");
+  this.sound.setAttribute("controls", "none");
+  this.sound.style.display = "none";
+  document.body.appendChild(this.sound);
+  this.play = function(){
+    this.sound.play();
+  }
+  this.stop = function(){
+    this.sound.pause();
+  }
+}
+
+hellp = new sound("zhelp.mp3")
+
+function help() {
+  hellp.play()
+}
+
+setInterval(help(),5000)
+</script>
